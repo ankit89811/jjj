@@ -1,0 +1,68 @@
+.blogTite {
+    font-size: 150%;
+    font-family: 'Abel', sans-serif;
+    font-weight: bold;
+}
+.blogText {
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.blogAuthor {
+    padding: 0px 0px 0px 10px;
+    font-family: 'Niconne', cursive;
+    font-size: 30px;
+}
+.blogContent{
+
+}
+
+/* Set a style for all the remaining elements like Like button, Edit button, Comment button and so on. */
+
+#blogTitle{
+    text-align: center;
+}
+
+#Edit_button, #Save_button{
+    background-color: deeppink;
+}
+
+#likeBlog, #addList{
+    width: 75px;
+    height: 30px;
+    background-color: deeppink;
+    border: none;
+    box-shadow:0px 0px .5px .5px white;
+   margin-top: .5%;
+    color: white;
+
+}
+
+textarea{
+    width: 80%;
+    height: 100px;
+
+}
+
+.bottom{
+    margin-top: .6%;
+}
+
+#commentCount{
+    margin-bottom: 2%;
+}
+
+#addEventNames{
+    background-color: #e9ecef;
+
+    padding: 5px 20px;
+
+}
+
+#addEventNames > p{
+    background-color: white;
+    height: 40px;
+    padding-top: 17px;
+    padding-left: 10px;
+
+}
+
